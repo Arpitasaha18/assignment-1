@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* background: #eeeeee; */
+}
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    padding-top: 100px;
+    
+    
+}
+
+.header2{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+.header3{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    display: flex;
+    padding-bottom: 170px;  
+    padding-top: 60px;
+    padding-leftt: 50px;
+}
+.banner-details{
+    /* margin-top: 200px; */
+    margin-left: 600px;
+    padding-right: 200px;
+}
+.banner-txt{
+    color: #181818;
+    font-weight: 800px;
+    font-size: 40px;
+
+}
+.primary-btn{
+    height: 50px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 17px;
+    font-weight: 650px; 
+}
+
+/* second part */
+.second-part{
+    display: flex;
+}
+.second-img{
+    height: 450px;
+    margin: 100px 130px;
+    
+}
+.second-details{
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.second-details ul li{
+    list-style-type: none;
+    display: flex;
+
+}
+
+/* My plans */
+
+.my-plan{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 35px;
+    color: #181818;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.plans{
+    text-align: center;
+}
+.plans-description{
+    color: #757575;
+}
+
+.plans-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700px;
+}
+/* call now section */
+.call-now {
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    margin: 100px 100px;
+    height: 200px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    
+    text-decoration: none;
+    
+    
+
+}
+.call-now h2 {
+    color: white;
+    background: none;
+    font-weight: 700px;
+    font-size: 30px;
+}
+.call-now .primary-btn{
+    background-color: #eeeeee;
+    color: rgb(21, 145, 223);
+    font-weight: 500px;
+    font-style: bold;
+    height: 40px;
+}
+
+/* Future */
+.future{
+    height: 250px;
+    display: flex;
+    background-color: black;
+    gap: 100px;
+    color: #eeeeee;
+    padding: 50px;
+    
+
+}
+
+.future .future-part1{
+    margin-left: 100px;
+    
+}
+.future .future-part2{
+    margin-right: 200px;
+}
+.future .future-part2 .primary-btn{
+    background-color:white;
+    color: #FD6E0A;
+    font-weight: 500px;
+    font-size: small;
+    height: 35px;
+
+}
+#mailbox{
+    height: 33px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.call-now2{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    margin: 100px 100px;
+    height: 200px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    
+    text-decoration: none;
+}
+
+.call-now2 .primary-btn{
+    background-color: #eeeeee;
+    color:rgb(223, 95, 21);
+    font-weight: 500px;
+    font-style: bold;
+    height: 40px;
+}
+.call-now3{
+    background-image: url('../images/watch.png'), url('../images/gradient3.png');
+    margin: 100px 100px;
+    height: 200px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    
+    text-decoration: none;
+}
+.call-now3 .primary-btn{
+    background-color: #eeeeee;
+    color:rgb(223, 95, 21);
+    font-weight: 500px;
+    font-style: bold;
+    height: 40px;
+}
+
